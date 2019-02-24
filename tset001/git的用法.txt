@@ -1,0 +1,26 @@
+操作: 先创建新库, 下载下来:  进行修改, 进行上传
+下载:
+1 git clone  是ssh地址   把网站上的仓库的内容克隆到本地
+     (此时在库名 里面有一个隐藏文件夹)
+2 在文件夹里  进行 npm i  下载文件 
+修改后:
+3 git status   查看状态 (在库名 内的文件里 进行操作查看)
+添加:
+4 git add .   添加到内存中  add和.之间有个空格
+5 git commit -m"add 添加的文件名"    把文件提交到线上  m后的"" 
+  中写做出的操作 例如写add text  其是个字符串 看你自己想写什么
+推送:
+6 git push   推送到线上库中 （如果是第一次推送 则需输入这个git push origin master）
+
+???
+7 git pull   直接在已经存在的本地仓库中吧 网站上的仓库内新增的东西拉(添加)到本地
+
+
+touch  .gitignore    创建.gitignore文件  此文件中写的东西不会被推送 相当于也是个配置文件  
+
+仓库文件夹中包含 .git 和 .gitignore两个配置文件夹  在.gitignore中写 /node_modules 则表示推送的时候不推送 node_modules文件夹
+
+
+cd ./添一个字母 tab 补全 翻到下一层
+cd ../  翻到上一层
+cd 地址 到该文件夹 (通过cmd 操作 )
